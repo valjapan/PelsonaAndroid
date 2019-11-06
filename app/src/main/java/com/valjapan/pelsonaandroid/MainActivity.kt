@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun finishJudge() {
+        time = 10
         AlertDialog.Builder(this)
             .setTitle("結果発表！")
             .setMessage("あなたは$count 回叩けました！\nさらにハードにしますか？")
